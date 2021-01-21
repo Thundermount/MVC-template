@@ -1,0 +1,12 @@
+.pages-container{
+    height: fit-content;
+    padding: 20px;
+    color: #bc0000;
+    text-align: center;
+    background-color: black;
+    font-size: x-large;
+}
+.pages-container a{
+    padding: 20px;
+    color: #bc0000;
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    backdrop-filter: brightness(50%);
+}
+.red-title{
+    color: #bc0000;
+    font-family: 'Russo One', sans-serif;
+}
+.pre {
+    white-space: pre-wrap;
+    line-height: 2rem;
+    
+}
+:empty:not(:focus):before{
+    content:attr(data-text);
+    font-style: italic;
+}
+[contentEditable=true]:not(value=""):not(:focus):before{
+    content:attr(data-text);
+    font-style: italic;
+}
+.record-preview:hover{
+    cursor: pointer;
+    border-color: blue;
+}
+.delete-button{
+    background-image: url('/resources/img/Trash.svg');
+    width: 16px;
+    height: 16px;
+}
+.delete-button:hover{
+    cursor: pointer;
+}
+.edit-button{
+    background-image: url('/resources/img/pencil.svg');
+    width: 16px;
+    height: 16px;
+}
+.edit-button:hover{
+    cursor: pointer;
+}

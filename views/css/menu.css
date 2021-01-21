@@ -1,0 +1,13 @@
+#menu{
+    height: fit-content;
+    padding: 20px;
+    color: #bc0000;
+    text-align: center;
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    font-size: x-large;
+}
+#menu a{
+    padding: 20px;
+    color: #bc0000;
+}
